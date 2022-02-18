@@ -1,7 +1,7 @@
 /*
  *  PCM - volumio hook plugin
  *
- *  Copyright (c) 2022 by Timothy Ward <timothyjward@apache.org>
+ *  Copyright (c) 2022 by Volumio SRL
  *
  *   This program is free software: you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
