@@ -100,10 +100,10 @@ int _snd_pcm_volumiohook_execute(snd_pcm_volumiohook_t *volumio, char* cmd) {
 		if(result == -1) {
 			SNDERR("The PCM %s failed to run command %s", snd_pcm_name(volumio->ext.pcm), cmd);
 		} else if (result != 0) {
-			result = 0;
 			if(volumio->debug > 0) {
 				SNDERR("The PCM %s got a non zero return %d from command %s", snd_pcm_name(volumio->ext.pcm), result, cmd);
 			}
+			result = 0;
 		}
 		free(cmd);
 		cmd = 0;
